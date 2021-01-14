@@ -12,3 +12,8 @@
 
 - 객체, 배열, 이벤트를 이용한 코딩 과제 제출
 - 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay3)
+
+## Day 04
+
+- if/else와 이벤트를 이용한 코딩 과제 제출
+- 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay4)

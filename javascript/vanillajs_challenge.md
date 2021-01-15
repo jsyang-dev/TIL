@@ -17,3 +17,8 @@
 
 - if/else와 이벤트를 이용한 코딩 과제 제출
 - 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay4)
+
+## Day 05
+
+- Date와 Intervals를 이용한 코딩 과제 제출
+- 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay5)

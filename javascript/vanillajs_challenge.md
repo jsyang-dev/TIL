@@ -22,3 +22,8 @@
 
 - Date와 Intervals를 이용한 코딩 과제 제출
 - 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay5)
+
+## Day 06
+
+- localStorage를 이용한 코딩 과제 제출
+- 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay6)

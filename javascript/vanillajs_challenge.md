@@ -30,5 +30,10 @@
 
 ## Day 7, 8
 
-- localStorage, ul를 이용한 코딩 과제 제출
+- localStorage, ul을 이용한 코딩 과제 제출
 - 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay7-8)
+
+## Day 9
+
+- random, input을 이용한 코딩 과제 제출
+- 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/challengeDay9)

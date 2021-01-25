@@ -47,3 +47,9 @@
 
 - Momonton 만들기 코딩 과제 제출
 - 제출한 코드: [링크](https://github.com/jsyang-dev/study-vanillajs/tree/master/momonton)
+
+## 회고
+
+- Vanilla JS 가 프레임워크가 아니라 순수한 Javascript를 얘기한다는 것을 깨닫고 신선한 충격을 받았다
+- 평소 Front 코드를 자주 다루지는 않지만 jQuery와 같은 프레임워크를 사용하지 않고 개발한 적이 없었던것 같다
+- 과제를 해결하면서 CSS에서 더 막혔던 것 같다(CSS 공부를 해야할 듯)

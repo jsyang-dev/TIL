@@ -28,4 +28,4 @@
 - 다형성이 조건문 보다 좋은 이유
   - 호출하는 곳에서 조건 행위에 대해서 몰라도 됨
   - 조건문을 쉽게 확장할 수 있음(새로운 구현체 추가)
-- 참고: [Github](https://github.com/jsyang-dev/study-refactoring/tree/master/src/replace_conditional_with_polymorphism)
+- 테스트 코드: [링크](https://github.com/jsyang-dev/study-refactoring/tree/master/src/replace_conditional_with_polymorphism)

@@ -1,31 +1,34 @@
-# Overview
+# Simplifying Conditional Expressions
 
 조건문은 코드를 이해하기 어렵게 함. 그래서 조건문을 단순하게 하는 여러가지 리팩토링 기법이 존자함
 
 ## Decompose Conditional
 
-- 조건문을 여러 조각으로 나눔
-- 스위칭 로직을 실제로 일어난 구체적인 행위 로직과 분리
+- 복잡한 조건문이 존재하는 경우
+- if, then, else에 해당되는 부분들을 메소드로 추출(의도를 드러내는 이름의 메소드)
 
 ## Consolidate Conditional Expression
 
-- 여러 조건 검사 로직이 있고 동일한 효과를 갖는 경우 사용
+- 동일한 then 파트를 갖는 일련의 조건문이 존재하는 경우
+- 하나의 조건식으로 합치고 메소드로 추출
 
 ## Consolidate Duplicate Conditional Fragments
 
-- 조건 코드의 중복을 제거
+- 동일 코드들이 조건문의 여러 분기문에 존재할 때
+- 조건문 외부로 이동
 
-## Replace Nested Conditional with Guard Clauses & Remove Control Flag
+## Remove Control Flag
 
-- 하나의 종료점만 있는 코드를 작성하기 위해서는 조건문들이 동작하도록 하기 위해
-- 제어 플래그를 사용함. 이 방식이 코드를 더 복잡하게 함
-- 특별한 조건문을 명확하게 하고 좋지 않은 제어 플래그 제거
+- 일련의 boolean 표현식에 대해 제어 플래그로 동작하는 변수가 있을 때
+- break나 return으로 변경
+
+## Replace Nested Conditional with Guard Clauses
+
+- 메소드가 명확한 실행 경로를 만들지 못하는 조건 행위를 갖는 경우
+- 모든 특별한 경우(special cases)에 대해 가드절(guard clause)를 사용
 
 ## Replace Conditional with Polymorphism
 
-- 객체지향 프로그램은 절차지향에 비해 조건 행위가 적음
-- 다형성으로 처리
-- 다형성이 조건문 보다 좋은 이유
-  - 호출하는 곳에서 조건 행위에 대해서 몰라도 됨
-  - 조건문을 쉽게 확장할 수 있음(새로운 구현체 추가)
+- 객체의 타입에 따라 다른 행위를 갖는 조건문이 존재할 때
+- 조건문에 따라 수행되는 로직들을 서부클래스의 재정의 메소드로 이동시키고 본래 메소드는 추상 메소드로 변경
 - 테스트 코드: [링크](https://github.com/jsyang-dev/study-refactoring/tree/master/src/replace_conditional_with_polymorphism)

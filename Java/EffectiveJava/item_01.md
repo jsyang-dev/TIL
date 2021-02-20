@@ -1,6 +1,6 @@
 # 아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라
 
-클라이언트가 클래스의 인스턴스를 얻는 전통적인 수단은 public 생성자이지만, 정적 팩터리 매서드(static factory method)를 제공하는 방법도 있다.
+- 클라이언트가 클래스의 인스턴스를 얻는 전통적인 수단은 public 생성자이지만, 정적 팩터리 매서드(static factory method)를 제공하는 방법도 있다
 
 ```java
 // java.lang.Boolean

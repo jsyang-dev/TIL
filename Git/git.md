@@ -120,7 +120,7 @@ git rebase --abort
 $ git rebase --continue
 ```
 
-### Reset commitg
+### Reset commit log
 
 ```bash
 # Worst: reset -> 이력이 사라짐

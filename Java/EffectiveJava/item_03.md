@@ -38,4 +38,4 @@ private Object readResolve() {
 
 ## 테스트 코드
 
-- [https://github.com/jsyang-dev/study-effective-java/tree/master/src/item03](https://github.com/jsyang-dev/study-effective-java/tree/master/src/item03)
+- <https://github.com/jsyang-dev/study-effective-java/tree/master/src/item03>

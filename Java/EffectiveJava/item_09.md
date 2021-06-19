@@ -8,3 +8,7 @@
 
 - 꼭 회수해야 하는 자원을 다룰 때는 try-finally 말고, try-with-resources를 사용하자
 - try-with-resources를 사용하면 코드는 더 짧고 분명해지고, 정확하고 쉽게 자원을 회수할 수 있다
+
+## 테스트 코드
+
+- <https://github.com/jsyang-dev/study-effective-java/tree/master/src/item09>

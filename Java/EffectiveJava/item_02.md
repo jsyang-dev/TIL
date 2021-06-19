@@ -36,4 +36,4 @@
 
 ## 테스트 코드
 
-- [https://github.com/jsyang-dev/study-effective-java/tree/master/src/item02](https://github.com/jsyang-dev/study-effective-java/tree/master/src/item02)
+- <https://github.com/jsyang-dev/study-effective-java/tree/master/src/item02>

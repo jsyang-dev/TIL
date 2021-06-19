@@ -19,3 +19,7 @@
 
 - cleaner는 안전망 역할이나 중요하지 않은 네이티브 자원 회수용으로 사용하자
 - 불확실성과 성능 저하에 주의해야 한다
+
+## 테스트 코드
+
+- <https://github.com/jsyang-dev/study-effective-java/tree/master/src/item08>

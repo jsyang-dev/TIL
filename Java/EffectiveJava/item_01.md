@@ -102,4 +102,4 @@ public static <E extends Enum<E>> EnumSet<E> noneOf(Class<E> elementType) {
 
 ## 테스트 코드
 
-- [https://github.com/jsyang-dev/study-effective-java/tree/master/src/item01](https://github.com/jsyang-dev/study-effective-java/tree/master/src/item01)
+- <https://github.com/jsyang-dev/study-effective-java/tree/master/src/item01>

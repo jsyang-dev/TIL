@@ -1,4 +1,4 @@
-# equals를 재정의하려거든 hashcode도 재정의하라
+# 아이템 11. equals를 재정의하려거든 hashcode도 재정의하라
 
 ## Object 명세에서 발췌한 규약
 
